@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "314829725692",
+    "project_id": "loginregisterdoncurrulo",
+    "storage_bucket": "loginregisterdoncurrulo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314829725692:android:f85c06fa8bcccffa4adc79",
+        "android_client_info": {
+          "package_name": "com.example.examenfinal_doncurrulo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314829725692-kmlahq1tt5tnqdbm5m27nd0vrtaumib1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaai8rvkeDs8nxWy-q4UtCydUarFQM_fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314829725692-kmlahq1tt5tnqdbm5m27nd0vrtaumib1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PagoActivity">
+
+    <ImageView
+        android:id="@+id/imgpago"
+        android:layout_width="wrap_content"
+        android:layout_height="730dp"
+        app:layout_constraintVertical_bias="0"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgpago" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottiepago"
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/cardpay" />
+
+    <ImageView
+        android:id="@+id/namepago"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titulopago"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottiepago" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/botonpago"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/bg_button_pago"
+        android:elevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namepago"
+        app:layout_constraintVertical_bias="0.686">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regresar al Menu"
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
